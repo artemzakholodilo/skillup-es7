@@ -1,0 +1,19 @@
+{
+  "name": "es7-example",
+  "version": "0.0.1",
+  "description": "es7 for courses",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "es7",
+    "javascript"
+  ],
+  "author": "Artem Zakholodilo",
+  "license": "MIT",
+  "dependencies": {
+    "es7-object-polyfill": "^1.0.1",
+    "jquery": "^3.4.1"
+  }
+}
