@@ -1,5 +1,11 @@
 import { Product } from './src/product.mjs';
 
-let product = new Product("MacBook", 32300.99);
+$('document').ready((e) => {
+    let product = new Product("MacBook", 32300.99),
+        productNameWrapper = $('span.product-name'),
+        productPriceWrapper = $('span.product-price');
 
-console.log(product);
+    productNameWrapper.text(product.getName());
+    productPriceWrapper.text(product.getPrice());
+}
+);
